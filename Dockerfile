@@ -63,7 +63,7 @@ RUN set -xe; \
     make -j4; \
     cp bin/* /usr/local/bin;
 
-ARG NOALBS_VERSION=v2.11.2
+ARG NOALBS_VERSION=v2.13.1
 RUN set -xe; \
     git clone https://github.com/715209/nginx-obs-automatic-low-bitrate-switching /build/noalbs; \
     cd /build/noalbs; \
